@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  saldo:number = 150000;
+  usuario:string = "Usuario";
+
   constructor() { }
 
   ngOnInit(): void {

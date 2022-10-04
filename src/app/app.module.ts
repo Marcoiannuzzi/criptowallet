@@ -7,6 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { MainComponent } from './components/main/main.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TransactionsComponent } from './components/transactions/transactions.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 
 @NgModule({
@@ -15,6 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     RegistrationComponent,
     MainComponent,
+    TransactionsComponent,
+    NavBarComponent
     
   ],
   imports: [
